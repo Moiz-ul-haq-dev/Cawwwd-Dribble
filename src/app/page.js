@@ -148,7 +148,7 @@ export default function Home() {
           </div>
           {/* list of items cards */}
           <div className="flex flex-wrap mt-5 ml-5 lg:justify-between md:justify-between sm:justify-between justify-center">
-            <div className="bg-white border mb-8 border-gray-300 rounded-lg shadow-lg">
+            <div className="bg-white border mx-1 mb-8 border-gray-300 rounded-lg shadow-lg">
               <Image src="/images/laptop.png" alt="Item Image" width={400} height={200}
                 className="w-full h-auto bg-gray-200" />
               <div className="px-4 py-2">
