@@ -139,11 +139,11 @@ export default function Home() {
             </div>
           </div>
           <div className="lg:flex block w-full mt-3 justify-between items-center">
-            <button className="flex items-center border rounded lg:rounded-2xl px-2 py-2 ml-3">Ready To Ship <Image className="lg:ml-2 ml-0" src={'/images/cancel.png'} width={20} height={20} layout="relative" objectFit="cover" /></button>
-            <button className="flex items-center border rounded lg:rounded-2xl px-2 py-2 ml-3">Paid Samples <Image className="lg:ml-2 ml-0" src={'/images/cancel.png'} width={20} height={20} layout="relative" objectFit="cover" /></button>
-            <button className="flex items-center border rounded lg:rounded-2xl px-2 py-2 ml-3">Price Maximum <Image className="lg:ml-2 ml-0" src={'/images/cancel.png'} width={20} height={20} layout="relative" objectFit="cover" /></button>
-            <button className="flex items-center border rounded lg:rounded-2xl px-2 py-2 ml-3">Price Minimum <Image className="lg:ml-2 ml-0" src={'/images/cancel.png'} width={20} height={20} layout="relative" objectFit="cover" /></button>
-            <button className="flex items-center border rounded lg:rounded-2xl px-2 py-2 ml-3">Minimal Order <Image className="lg:ml-2 ml-0" src={'/images/cancel.png'} width={20} height={20} layout="relative" objectFit="cover" /></button>
+            <button className="flex items-center border rounded lg:rounded-2xl lg:px-2 px-1 py-2 ml-3">Ready To Ship <Image className="lg:ml-2 ml-0" src={'/images/cancel.png'} width={20} height={20} layout="relative" objectFit="cover" /></button>
+            <button className="flex items-center border rounded lg:rounded-2xl lg:px-2 px-1 py-2 ml-3">Paid Samples <Image className="lg:ml-2 ml-0" src={'/images/cancel.png'} width={20} height={20} layout="relative" objectFit="cover" /></button>
+            <button className="flex items-center border rounded lg:rounded-2xl lg:px-2 px-1 py-2 ml-3">Price Maximum <Image className="lg:ml-2 ml-0" src={'/images/cancel.png'} width={20} height={20} layout="relative" objectFit="cover" /></button>
+            <button className="flex items-center border rounded lg:rounded-2xl lg:px-2 px-1 py-2 ml-3">Price Minimum <Image className="lg:ml-2 ml-0" src={'/images/cancel.png'} width={20} height={20} layout="relative" objectFit="cover" /></button>
+            <button className="flex items-center border rounded lg:rounded-2xl lg:px-2 px-1 py-2 ml-3">Minimal Order <Image className="lg:ml-2 ml-0" src={'/images/cancel.png'} width={20} height={20} layout="relative" objectFit="cover" /></button>
             <p className="text-orange-400 font-bold ml-5">Clear All Filters</p>
           </div>
           {/* list of items cards */}
